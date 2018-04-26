@@ -1,0 +1,33 @@
+*, ::before, ::after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+p, a, li {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #6b6b6a; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #F7F9FC; }
+
+.sidebar {
+  grid-column: 1 / 2;
+  height: 100vh;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 1px 2px #aaa; }
+  .sidebar__logo {
+    max-width: 100%;
+    height: auto; }
+
+.nav {
+  padding: 1rem;
+  list-style: none; }
+  .nav li {
+    margin-bottom: 1rem; }

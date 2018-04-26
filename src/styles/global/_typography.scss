@@ -1,0 +1,5 @@
+p, a, li {
+  @include font;
+  font-size: 1.6rem;
+  color: $grey;
+}
